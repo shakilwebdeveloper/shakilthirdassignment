@@ -122,8 +122,8 @@
     
     
     <div class="relative flex-1 mt-20 flex justify-center">
-      <img class="w-[80%] h-[600px] object-cover rounded-xl" src="./assets/flower-store.png" alt="Flower Store" />
-      <img class="w-[286px] h-[286px] absolute -top-24 -right-10" src="./assets/trusted-badge.png" alt="Trusted Badge" />
+      <img class="w-[80%] h-[600px] object-cover" src="./assets/flower-store.png" alt="Flower Store"/>
+      <img class="w-[286px] h-[286px] absolute -top-24 -right-10 hidden sm:block" src="./assets/trusted-badge.png" alt="Trusted Badge"/>
     </div>
 
     
@@ -160,7 +160,7 @@
       <div class="w-full lg:w-[40%] space-y-4">
         
         <div class="relative h-[210px]">
-          <img class="w-full h-full object-cover rounded-xl" src="./assets/deal-bloom.png" alt="Bloom Deal" />
+          <img class="w-full h-full object-cover rounded-xl" src="./assets/deal-bloom.png" alt="Bloom Deal"/>
           <div class="absolute inset-0 flex flex-col items-center justify-center text-white">
             <p class="text-xl md:text-2xl font-bold">60% Off | Bloom Plant</p>
             <p class="text-xl md:text-2xl font-bold">Shop now</p>
@@ -191,7 +191,7 @@
 
 <!-- My Website 4th section -->
  <section class="mt-20">
-    <main>
+  <main>
 <section class="w-full h-[600px] bg-[url('./assets/news-letter-bg.png')] bg-center bg-cover bg-no-repeat">
   <div class="flex justify-center items-center h-full px-4">
     <div class="text-center w-full max-w-3xl">
@@ -201,17 +201,10 @@
       </p>
 
       
-      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-        <input
-          type="email"
-          placeholder="Write Email"
-          class="text-xl p-3 w-full sm:w-[400px] rounded-md border border-gray-300 focus:outline-none"
-        />
-        <button
-          class="text-xl font-semibold bg-[#E95A08] text-white p-3 w-full sm:w-[200px] rounded-md"
-        >
-          Subscribe
-        </button>
+      <div class="flex flex-col sm:flex-row items-center justify-center">
+        <input type="email" placeholder="Write Email" class="text-xl py-2 w-full sm:w-[400px]  bg-[#FFFFFF] p-2">
+               
+      <button class="text-xl font-semibold bg-[#E95A08] text-white py-2 w-full sm:w-[200px] ">Subscribe</button>
       </div>
     </div>
   </div>
